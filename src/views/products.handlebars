@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<h4>{{userName}}</h4>
+<h4>{{userRol}}</h4>
+
+<ul>
+    {{#each products}}
+        <li>$ {{this.price}} {{this.title}} ({{this.description}})</li>
+    {{/each}}
+</ul>
